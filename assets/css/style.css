@@ -1,0 +1,19 @@
+body {
+    color: white;
+    background-image: url(../images/background.jpg);
+    background-color: darkblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: black;
+    padding: 15px;
+    margin: 15px;
+}
+
+#game {
+    background-color: black;
+    padding: 15px;
+    margin: 15px;
+}
