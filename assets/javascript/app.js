@@ -122,8 +122,6 @@ function startButtonClick() {
     $("#timer").addClass("clock");
     // populate question
     $("#question").html(questions);
-    // correct background image
-    $("body").addClass("start");
     // and make sure "Keep going" button will function
     clearKeep();
 };
