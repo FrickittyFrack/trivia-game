@@ -10,7 +10,9 @@
         
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         
-        <script src="assets/javascript/app.js"></script>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     </head>
 
@@ -22,23 +24,34 @@
 
             <div id="timer"></div>
 
-            <button id="start-button">Start the Quiz</button>
+            <div id="start-button" class="begin"></div>
 
-            <div id="reference-pic"></div>
+            <img id="reference-pic">
             
             <div id="question"></div>
 
-            <table id="answers">
+            <div id="outer-keep">
+                
+                <span id="keep-going"></span>
+                
+                <span id="sure"></span>
+            
+            </div>
 
-                <tr id="option-1"></tr>
+            <div id="answers">
 
-                <tr id="option-2"></tr>
+                <div id="option-1" class="answer-button"></div>
+                
+                    
+                <div id="option-2" class="answer-button"></div>
+                
+                    
+                <div id="option-3" class="answer-button"></div>
+                
 
-                <tr id="option-3"></tr>
+                <div id="option-4" class="answer-button"></div>
 
-                <tr id="option-4"></tr>
-
-            </table>
+            </div>
 
             <div id="score">
 
@@ -48,6 +61,12 @@
 
             </div>
 
+        </div>
+
+        <div>
+
+            <img id="background" src="assets/images/background.jpg">
+        
         </div>
 
     </body>
